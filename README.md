@@ -11,7 +11,7 @@ A static website for KD Fine Art Monaco, made to replace the current Wix site at
 
 ## Before launch
 
-- [ ] Founder portrait: save as `images/ekaterina-dolgova.jpg`, then replace the `.img-slot` block in `index.html` with `<img src="images/ekaterina-dolgova.jpg" alt="Ekaterina Dolgova">`
+- [ ] Founder portrait: `images/ekaterina-dolgova.png` is a temporary crop from the old site; replace it with the original high-resolution photo
 - [ ] Logo: export the original KD logo as SVG/PNG and swap it in for the text version
 - [ ] Confirm name spelling (Ekaterina vs Katerina) and positioning (advisor and/or dealer)
 - [ ] Confirm contact details: business email domain, Monaco phone number, address

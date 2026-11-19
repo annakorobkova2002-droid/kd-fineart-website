@@ -80,8 +80,9 @@ h3 { font-size: 26px; margin-bottom: 10px; }
   display: flex; align-items: center; justify-content: center; text-align: center;
   font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding: 24px;
 }
-.portrait img { width: 100%; display: block; aspect-ratio: 4 / 5; object-fit: cover; }
-.portrait figcaption { margin-top: 14px; font-size: 14px; color: var(--muted); }
+.portrait { text-align: center; }
+.portrait img { width: 100%; max-width: 360px; height: auto; display: block; margin: 0 auto; border-radius: 50%; }
+.portrait figcaption { margin-top: 18px; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
 
 .services { background: var(--stone); }
 .service-list { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin-top: 56px; border-top: 1px solid var(--line); }
