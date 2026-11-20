@@ -83,7 +83,7 @@ h3 { font-size: 25px; font-weight: 400; }
 .services-grid { display: grid; grid-template-columns: 5fr 6fr; gap: 100px; align-items: center; }
 .framed { margin: 0; }
 .frame { padding: 22px; background: #fdfbf7; border: 1px solid var(--gold-soft); box-shadow: 0 24px 60px rgba(60, 45, 25, 0.14); }
-.frame img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 40%; }
+.frame img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 30%; }
 .framed .credit { margin-top: 18px; }
 .service-list { list-style: none; margin-top: 12px; }
 .service-list li { padding: 22px 0; border-top: 1px solid var(--gold-soft); }
