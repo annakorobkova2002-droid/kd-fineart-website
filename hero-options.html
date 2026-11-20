@@ -10,7 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=3">
   <style>
-    .hero { background: var(--ink); overflow: hidden; }
+    .hero { position: relative; display: flex; align-items: center; justify-content: center; text-align: center; min-height: 100vh; padding: 120px 24px 90px; background: var(--ink); overflow: hidden; }
+    .hero h1 { color: #fff; } .hero h1 em { color: #e9dcc3; } .hero .label { color: #d4bf98; } .hero .link-cta { color: #fff; } .hero .rule { width: 1px; height: 64px; margin: 40px auto 30px; }
+    .credit-hero { position: absolute; right: 32px; bottom: 24px; color: rgba(255,255,255,.55); }
     .hero-bg { position: absolute; inset: 0; background-size: cover; background-repeat: no-repeat; }
     .hero-bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(rgba(16,13,9,.62), rgba(16,13,9,.78)); }
     .hero-inner { position: relative; z-index: 1; }
